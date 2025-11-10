@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>EatClub — Visual Clone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<script defer src="./script.js"></script>
+
+</head>
+<body>
+  <div class="site">
+    <!-- header -->
+    <header class="header">
+      <img class="logo" src="https://d203x0tuwp1vfo.cloudfront.net/20251023100258/assets/images/logo.png" alt="EatClub">
+      <div style="flex:1"></div>
+      <nav class="header-right">
+        <button class="pill">Why EatClub?</button>
+        <button class="pill">Deals</button>
+        <button class="pill">Cart</button>
+        <button class="pill primary">Get the app</button>
+        <button class="pill">Sign in</button>
+      </nav>
+    </header>
+
+    <!-- hero -->
+    <section class="hero" aria-label="hero">
+      <div class="hero-left">
+        <div class="kicker">DELIVERY — Showing Default Location</div>
+        <h1>Get <span class="accent">200 OFF</span></h1>
+        <div class="sub" style="font-size:36px;font-weight:800">FIRST 3 APP ORDERS</div>
+        <div class="coupon">Use Code: <span style="color:var(--teal);font-weight:900">FIRST3</span></div>
+      </div>
+
+      <div class="hero-right">
+        <div class="qr-wrap">
+          <!-- use the banner/QR image from images.json (banner/2516 used previously) -->
+          <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2516" alt="QR/banner">
+        </div>
+        <div class="qr-caption">Scan to download the app</div>
+      </div>
+    </section>
+
+    <!-- offers -->
+    <h3 style="margin-top:24px;margin-bottom:8px">Top offers today</h3>
+    <div class="offers-row" role="list">
+      <!-- use the extracted offer banner urls -->
+      <div class="offer" role="listitem">
+        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2521" alt="offer1">
+        <div class="label">Happy Hours</div>
+      </div>
+      <div class="offer" role="listitem">
+        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2396" alt="offer2">
+        <div class="label">Biryani ₹99</div>
+      </div>
+      <div class="offer" role="listitem">
+        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2390" alt="offer3">
+        <div class="label">Value Pizzas</div>
+      </div>
+      <div class="offer" role="listitem">
+        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2483" alt="offer4">
+        <div class="label">₹99 Meals</div>
+      </div>
+      <div class="offer" role="listitem">
+        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2397" alt="offer5">
+        <div class="label">What's New</div>
+      </div>
+      <div class="offer" role="listitem">
+        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2400" alt="offer6">
+        <div class="label">Protein Meals</div>
+      </div>
+      <div class="offer" role="listitem">
+        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2401" alt="offer7">
+        <div class="label">Buy 1 Get 1</div>
+      </div>
+    </div>
+
+    <!-- restaurants grid -->
+    <section class="grid" aria-label="restaurants">
+      <!-- Card 1 -->
+      <article class="rest-card">
+        <div class="rest-media">
+          <img src="https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/20_disabled" alt="LeanCrust Pizza">
+          <div class="badge">
+            <img src="https://assets.box8.co.in/icon/web/brand/20" alt="" style="width:56px;height:56px;border-radius:50%;object-fit:contain">
+          </div>
+        </div>
+        <div class="rest-body">
+          <h3>LeanCrust Pizza</h3>
+          <p>The Thin Crust Experts</p>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="rest-card">
+        <div class="rest-media">
+          <img src="https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/1_disabled" alt="Box8 - Desi Meals">
+          <div class="badge">
+            <img src="https://assets.box8.co.in/icon/web/brand/1" alt="" style="width:56px;height:56px;border-radius:50%;object-fit:contain">
+          </div>
+        </div>
+        <div class="rest-body">
+          <h3>BOX8 - Desi Meals</h3>
+          <p>India's Largest Desi Meals Brand</p>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="rest-card">
+        <div class="rest-media">
+          <img src="https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/31_disabled" alt="Daily Kitchen">
+          <div class="badge">
+            <img src="https://assets.box8.co.in/icon/web/brand/31" alt="" style="width:56px;height:56px;border-radius:50%;object-fit:contain">
+          </div>
+        </div>
+        <div class="rest-body">
+          <h3>Daily Kitchen</h3>
+          <p>Mom-style homely meals</p>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="rest-card">
+        <div class="rest-media">
+          <img src="https://assets.box8.co.in/missing/eatclub.png" alt="The Ghee Khichdi Project">
+          <div class="badge">
+            <img src="https://assets.box8.co.in/missing/eatclub.png" alt="" style="width:56px;height:56px;border-radius:50%;object-fit:cover">
+          </div>
+        </div>
+        <div class="rest-body">
+          <h3>The Ghee Khichdi Project</h3>
+          <p>Comforting, wholesome & made with 100% pure ghee</p>
+        </div>
+      </article>
+
+      <!-- Card 5 -->
+      <article class="rest-card">
+        <div class="rest-media">
+          <img src="https://assets.box8.co.in/missing/eatclub.png" alt="ZAZA Mughal Biryani">
+          <div class="badge">
+            <img src="https://assets.box8.co.in/missing/eatclub.png" alt="" style="width:56px;height:56px;border-radius:50%;object-fit:cover">
+          </div>
+        </div>
+        <div class="rest-body">
+          <h3>ZAZA Mughal Biryani</h3>
+          <p>India's most flavourful biryani</p>
+        </div>
+      </article>
+
+      <!-- Card 6 -->
+      <article class="rest-card">
+        <div class="rest-media">
+          <img src="https://assets.box8.co.in/missing/eatclub.png" alt="MOJO Pizza">
+          <div class="badge">
+            <img src="https://assets.box8.co.in/missing/eatclub.png" alt="" style="width:56px;height:56px;border-radius:50%;object-fit:cover">
+          </div>
+        </div>
+        <div class="rest-body">
+          <h3>MOJO Pizza</h3>
+          <p>India's Highest Rated Pizza Delivery Chain</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- footer -->
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="col">
+          <h2 style="margin:0 0 6px 0">EatClub</h2>
+          <p style="color:rgba(255,255,255,0.9);line-height:1.5">A membership program that takes you straight to a no-nonsense, curated selection of restaurants. Get unlimited savings with 30% OFF every time on all restaurants and NO extra charges on delivery, packaging or surge.</p>
+        </div>
+        <div class="col">
+          <h4 style="margin-top:0">Company</h4>
+          <ul style="list-style:none;padding:0;margin:8px 0 0 0;color:rgba(255,255,255,0.9)"><li>About Us</li></ul>
+        </div>
+        <div class="col">
+          <h4 style="margin-top:0">Get Help</h4>
+          <ul style="list-style:none;padding:0;margin:8px 0 0 0;color:rgba(255,255,255,0.9)"><li>Contact us</li><li>Help & Support</li></ul>
+        </div>
+        <div class="col">
+          <h4 style="margin-top:0">Explore</h4>
+          <ul style="list-style:none;padding:0;margin:8px 0 0 0;color:rgba(255,255,255,0.9)"><li>Offers</li><li>Bulk Order</li></ul>
+          <div style="margin-top:12px">
+            <img src="https://d203x0tuwp1vfo.cloudfront.net/20251023100258/assets/images/new_social_icons/fb.svg" class="socials" alt="fb">
+            <img src="https://d203x0tuwp1vfo.cloudfront.net/20251023100258/assets/images/new_social_icons/twitter.svg" class="socials" alt="tw">
+            <img src="https://d203x0tuwp1vfo.cloudfront.net/20251023100258/assets/images/new_social_icons/instagram.svg" class="socials" alt="ig">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
