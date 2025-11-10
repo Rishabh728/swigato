@@ -8,6 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script defer src="./script.js"></script>
 
 </head>
@@ -15,33 +16,23 @@
   <div class="site">
     <!-- header -->
     <header class="header">
-      <img class="logo" src="https://d203x0tuwp1vfo.cloudfront.net/20251023100258/assets/images/logo.png" alt="EatClub">
-      <div style="flex:1"></div>
+      <img class="logo" src="./assets/logo.webp" alt="EatClub">
+      <div style="" class="inputParent">
+        <input type="text" class="inputNav" placeholder="Live to eat">
+        <button class="btnNav"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
       <nav class="header-right">
         <button class="pill">Why EatClub?</button>
         <button class="pill">Deals</button>
         <button class="pill">Cart</button>
         <button class="pill primary">Get the app</button>
-        <button class="pill">Sign in</button>
+        <button class="pill secondary">Sign in</button>
       </nav>
     </header>
 
     <!-- hero -->
     <section class="hero" aria-label="hero">
-      <div class="hero-left">
-        <div class="kicker">DELIVERY — Showing Default Location</div>
-        <h1>Get <span class="accent">200 OFF</span></h1>
-        <div class="sub" style="font-size:36px;font-weight:800">FIRST 3 APP ORDERS</div>
-        <div class="coupon">Use Code: <span style="color:var(--teal);font-weight:900">FIRST3</span></div>
-      </div>
-
-      <div class="hero-right">
-        <div class="qr-wrap">
-          <!-- use the banner/QR image from images.json (banner/2516 used previously) -->
-          <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2516" alt="QR/banner">
-        </div>
-        <div class="qr-caption">Scan to download the app</div>
-      </div>
+      <img class="heroImg" src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2516" alt="QR/banner">
     </section>
 
     <!-- offers -->
@@ -79,9 +70,9 @@
     </div>
 
     <!-- restaurants grid -->
-    <section class="grid" aria-label="restaurants">
+    <section id="grid" class="grid" aria-label="restaurants">
       <!-- Card 1 -->
-      <article class="rest-card">
+      <article class="rest-card" id="article">
         <div class="rest-media">
           <img src="https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/20_disabled" alt="LeanCrust Pizza">
           <div class="badge">
@@ -165,14 +156,18 @@
       </article>
     </section>
 
+    <article>
+      <img class="banner" src="./assets/eatclub-download-banner.webp" alt="">
+    </article>
+
     <!-- footer -->
     <footer class="site-footer">
       <div class="footer-grid">
         <div class="col">
           <h2 style="margin:0 0 6px 0">EatClub</h2>
-          <p style="color:rgba(255,255,255,0.9);line-height:1.5">A membership program that takes you straight to a no-nonsense, curated selection of restaurants. Get unlimited savings with 30% OFF every time on all restaurants and NO extra charges on delivery, packaging or surge.</p>
+          <p style="color:rgba(255,255,255,0.9);line-height: 2;">A membership program that takes you straight to a no-nonsense, curated selection of restaurants. Get unlimited savings with 30% OFF every time on all restaurants and NO extra charges on delivery, packaging or surge.</p>
         </div>
-        <div class="col">
+        <div class="col" >
           <h4 style="margin-top:0">Company</h4>
           <ul style="list-style:none;padding:0;margin:8px 0 0 0;color:rgba(255,255,255,0.9)"><li>About Us</li></ul>
         </div>

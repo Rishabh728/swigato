@@ -4,7 +4,16 @@ let fetchData = async (params) => {
     let data = await fetch__.json();
     console.log(data)
 
+    let grid = document.getElementById('grid');
     
+    data.filter((item) => {
+        return
+    }).map(() => {
+        let article = document.getElementById('article');
+        grid.append(article);
+        
+    })
+
 
 }
 
