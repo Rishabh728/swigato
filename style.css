@@ -61,6 +61,13 @@ header.header {
   color: #000000;
   border: 2px solid var(--teal);
 }
+
+.articleSlider{
+  height: 400px;
+  width: 100%;
+  
+}
+
 /* 
 .inputParent{
     border: solid ;
