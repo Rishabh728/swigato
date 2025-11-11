@@ -1,252 +1,183 @@
-#   Swigato   (Complete Project Documentation)
+# Swigato
 
-A fully responsive front-end visual   of the ** Swigato** (Swigato-style) landing page.  
-This project demonstrates modern front-end practices using **HTML**, **CSS**, and **JavaScript**, with clean structure, reusable styles, and optional dynamic data loading.
+## Objective
 
----
-
-##  Overview
-
-This project recreates a professional food-delivery web layout, focusing on:
-- **Reusable components** — Header, Hero/Carousel, Offers, Grid, Footer  
-- **Responsive design** — Works across desktop and mobile  
-- **Data-driven approach** — Optional JSON-based dynamic rendering  
-- **Modern UI techniques** — Flexbox, CSS Grid, Font Awesome, semantic HTML  
+The objective of the **Swigato** website is to design a fully responsive and interactive food delivery platform interface.  
+It aims to provide an engaging user experience with clear navigation and visually appealing design.  
+The goal is to simulate a real-world food-ordering website layout using HTML, CSS, and JavaScript.  
+Students will learn how to structure a multi-section webpage with both static and dynamic content.
 
 ---
 
-##  Project Structure
+## Synopsis
 
-  Swigato- /
-│
-├── swigato.html # Main HTML page
-├── style.css # CSS styling and layout
-├── script.js # JS for interactivity / dynamic data
-├── data.json # Optional JSON data file
-├── assets/
-│ ├── logo.webp
-│ └──  Swigato-download-banner.webp
-├── Screenshot 2025-11-11 at 7.34.23 AM.png
-├── Screenshot 2025-11-11 at 7.34.33 AM.png
-└── Screenshot 2025-11-11 at 7.34.40 AM.png
+1. Swigato is a front-end replica of a modern food delivery platform.
+2. It includes sections such as Navbar, Hero banner, Cuisines, Testimonials, and Footer.
+3. Each part of the page demonstrates layout, styling, and responsiveness.
+4. The website uses semantic HTML and organized CSS for clarity and maintenance.
+5. It focuses on visual design and layout flow rather than backend integration.
 
 ---
 
-##  Preview
+## Image Description
 
-| Section | Screenshot |
-|----------|-------------|
-| Header & Hero | ![Header](./Screenshot%202025-11-11%20at%207.34.23%20AM.png) |
-| Offers Row & Grid | ![Offers](./Screenshot%202025-11-11%20at%207.34.33%20AM.png) |
-| Footer & Banner | ![Footer](./Screenshot%202025-11-11%20at%207.34.40%20AM.png) |
+### 1. Navbar Image
 
----
+![alt text](<Screenshot 2025-11-11 095822.png>)
 
-##  How to Run
-
-You can directly open the project in your browser:
-
-1. Keep all files in one folder.
-2. Double-click `swigato.html` to open it in your browser.  
-3. For editing and live preview:
-   - Open the project in **VS Code**.
-   - Install the **Live Server** extension.
-   - Right-click `swigato.html` → **Open with Live Server**.
-
->  *Using Live Server automatically reloads your browser whenever you save a change.*
+- Displays the Swigato logo, navigation menu, and essential buttons like “Sign in” or “Cart.”
+- Helps users access different sections easily and maintain brand visibility across the site.
 
 ---
 
-##  HTML — Section by Section Breakdown
+### 2 Sign-In Popup with Blur Effect
 
-###  1. Header / Navbar
+![alt text](<./Screenshot 2025-11-11 103815.png>)
+
+This section explains how to create the **Sign-In popup box** that appears in the center of the screen with the background blurred when the "Sign In" button is clicked.
+
+---
+
+#### Objective
+
+To create a login popup form that overlays on the current webpage while blurring the background content.  
+The popup should be fully responsive and include a close button.
+
+---
+
+#### Steps to Create
+
+**HTML Setup**
+
+- Add a button with an `id="signIn"` in your navigation bar or header.
+- No popup HTML is added directly inside the file; it will be dynamically created using JavaScript.
+
+### 3 JavaScript Instructions — Day/Night Theme Toggle
+
+![Theme](<./Screenshot 2025-11-11 104614.png>)
+This JavaScript code allows the user to **switch between light and dark themes** when a specific button (often represented by a sun/moon icon) is clicked.  
+It dynamically updates the page’s background, hero section, and button styles by toggling CSS classes.
+
+---
+
+### 4. Hungry Image
+
+![alt text](<Screenshot 2025-11-11 095906.png>)
+
+- Represents the hero or banner section that catches user attention with a catchy tagline or promotional visual.
+- It sets the tone for the website and can include a background image or call-to-action button.
+
+---
+
+### 5. Popular Cuisines Image
+
+![Popular Cuisines Image](<Screenshot 2025-11-11 095929.png>)
+
+- Highlights a grid of cuisine categories like Pizza, Biryani, or Desserts.
+- Encourages users to explore food types and makes navigation visually interesting.
+
+---
+
+### 6. Top Restaurants Image
+
+![Top Restaurants Image](<Screenshot 2025-11-11 102608.png>)
+
+- Displays popular restaurant cards with images, titles, and brief taglines.
+- Gives users an overview of the top-rated restaurants available on Swigato.
+
+---
+
+
+### 7. Footer Image
+
+![Footer Image](<./Screenshot 2025-11-11 102916.png>)
+
+- Displays company info, social media icons, and quick navigation links.
+- Acts as the closing part of the webpage and maintains brand consistency.
+
+---
+
+## Section Instructions
+
+Below are the step-by-step instructions for creating each main section of the **Swigato** website.  
+Each section corresponds directly to the images and descriptions given above and helps structure the full webpage layout.
+
+---
+
+##### 1. Navbar Section
+- Create a **header** using the `<nav>` tag that includes the Swigato logo, navigation links, search input, and action buttons like **Sign In** and **Cart**.  
+- Use **Flexbox** to align elements horizontally with even spacing using `justify-content: space-between`.  
+- Make the navbar **sticky** to the top for constant accessibility while scrolling.  
+- Add a light background color and minimal box shadow for better visibility.
+
+---
+
+#### 2. Sign-In Popup Section
+- Build a **login form popup** that appears when the “Sign In” button is clicked.  
+- Use **JavaScript** to dynamically create the popup and overlay blur effect.  
+- The popup should contain text fields for **Username** and **Password**, along with a **Close** and **Submit** button.  
+- Apply a semi-transparent overlay behind the popup to blur the main content area.
+
+---
+
+#### 3. Day/Night Theme Toggle Section
+- Add a toggle button (like a sun/moon icon) with the `id="dayNight"`.  
+- Use **JavaScript event listeners** to switch between light and dark modes when the icon is clicked.  
+- Toggle CSS classes on the `<body>` and key sections like `.hero` and `.pill` buttons to change colors dynamically.  
+- Ensure smooth transitions between themes for better user experience.
+
+---
+
+#### 4. Hero (Hungry) Section
+- Create a **full-width hero banner** that visually represents the food delivery theme.  
+- Use a background image with overlay text such as *“Live to Eat”* or *“Deliciousness Delivered Fast.”*  
+- Center the content using **Flexbox** or **Grid**, and add a call-to-action button like *“Order Now”*.  
+- Make it responsive so text and images resize properly on smaller screens.
+
+---
+
+#### 5. Popular Cuisines Section
+- Design a **responsive grid** showing various cuisine options like *Pizza*, *Biryani*, *Chinese*, and *Desserts*.  
+- Each grid item should contain an image and a label below it.  
+- Apply hover effects like scale-up or shadow for interactivity.  
+- Use CSS Grid with `grid-template-columns` to adjust automatically for different devices.
+
+---
+
+#### 6. Top Restaurants Section
+- Build a **restaurant showcase** displaying multiple restaurant cards.  
+- Each card should include an image, name, rating, and a short tagline (e.g., *“Best Biryani in Town”*).  
+- Arrange them in a flexible grid layout using **Flexbox** or **CSS Grid**.  
+- Add hover animations for a dynamic and modern look.
+
+
+---
+
+#### 7. Footer Section
+- Design a **footer** with three main columns — Company Info, Quick Links, and Social Media Handles.  
+- Use a **Grid** layout for neat alignment and a consistent spacing structure.  
+- Add copyright text and use icons for social links.  
+- Choose a contrasting background color that complements the website’s theme.
+
+---
+
+
+---
+
+## HTML , CSS and Javascript Structure
 
 ```html
-<header class="header">
-  <img class="logo" src="./assets/logo.webp" alt=" Swigato">
-  <div class="inputParent">
-    <input type="text" class="inputNav" placeholder="Live to eat">
-    <button class="btnNav"><i class="fa-solid fa-magnifying-glass"></i></button>
-  </div>
-  <nav class="header-right">
-    <button class="pill">Why  Swigato?</button>
-    <button class="pill">Deals</button>
-    <button class="pill">Cart</button>
-    <button class="pill primary">Get the app</button>
-    <button class="pill secondary">Sign in</button>
-  </nav>
-</header>
-Purpose:
-Displays brand logo, search input, and navigation buttons. The “pills” are styled call-to-action elements.
-Customization:
-
-Replace logo.webp with your brand logo.
-Add more <button> or convert them to <a> links for real navigation.
-Update the search bar placeholder text in .inputNav.
- 2. Hero / Carousel
-<section class="hero" id="hero" aria-label="hero">
-  <!-- <img class="heroImg" src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2516" alt="Banner"> -->
-</section>
-Purpose:
-Large banner area showcasing offers, featured restaurants, or download QR.
-Ideas for improvement:
-
-Add a carousel using JavaScript (auto-slide through 3–4 banners).
-Or simply show a single hero banner like:
-<img class="heroImg" src="./assets/hero-banner.webp" alt="Delicious meals delivered fast">
-Styling tip:
-Set a background gradient overlay using CSS for contrast against white text.
- 3. Top Offers Row
-<h3>Top offers today</h3>
-<div class="offers-row" role="list">
-  <div class="offer" role="listitem">
-    <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2521" alt="offer1">
-    <div class="label">Happy Hours</div>
-  </div>
-  <!-- More offers -->
-</div>
-Purpose:
-Highlights current promotions as image tiles.
-CSS behavior:
-
-.offers-row uses grid or flex layout with equal-width banners.
-.offer cards include an image and label overlay.
-Customization tips:
-Replace src URLs with your own banners.
-Add more offers by duplicating .offer divs.
-To make it horizontally scrollable on small screens:
-.offers-row {
-  display: flex;
-  overflow-x: auto;
-  gap: 16px;
-  scroll-snap-type: x mandatory;
-}
-.offer { scroll-snap-align: start; min-width: 200px; }
- 4. Restaurants Grid (Cards)
-<section id="grid" class="grid" aria-label="restaurants">
-  <article class="rest-card">
-    <div class="rest-media">
-      <img src="..." alt="LeanCrust Pizza">
-      <div class="badge">
-        <img src="..." alt="" style="width:56px;height:56px;border-radius:50%;">
-      </div>
-    </div>
-    <div class="rest-body">
-      <h3>LeanCrust Pizza</h3>
-      <p>The Thin Crust Experts</p>
-    </div>
-  </article>
-  <!-- More cards -->
-</section>
-Purpose:
-Displays different restaurant/brand options as cards.
-Key elements:
-
-.rest-card — main container with shadow & border-radius.
-.rest-media — top image container, with a .badge overlay for brand logo.
-.rest-body — restaurant title and description.
-Dynamic tip:
-Use JavaScript to generate cards from data.json (see below).
- 5. Download Banner
-<article>
-  <img class="banner" src="./assets/ Swigato-download-banner.webp" alt="Download  Swigato App">
-</article>
-Purpose:
-Large promotional area encouraging users to download the app.
-Tip:
-Use a high-resolution image and loading="lazy" for performance:
-
-<img class="banner" src="./assets/ Swigato-download-banner.webp" alt="Download  Swigato App" loading="lazy">
- 6. Footer
-<footer class="site-footer">
-  <div class="footer-grid">
-    <div class="col">
-      <h2> Swigato</h2>
-      <p>A membership program that takes you straight to curated restaurants...</p>
-    </div>
-    <div class="col">
-      <h4>Company</h4>
-      <ul><li>About Us</li></ul>
-    </div>
-    <div class="col">
-      <h4>Get Help</h4>
-      <ul><li>Contact us</li><li>Help & Support</li></ul>
-    </div>
-    <div class="col">
-      <h4>Explore</h4>
-      <ul><li>Offers</li><li>Bulk Order</li></ul>
-      <div>
-        <img src=".../fb.svg" alt="Facebook">
-        <img src=".../twitter.svg" alt="Twitter">
-        <img src=".../instagram.svg" alt="Instagram">
-      </div>
-    </div>
-  </div>
-</footer>
-Purpose:
-Displays brand info, quick links, and social media icons.
-Tips:
-
-Wrap <li> elements in <a> tags for clickable navigation.
-Ensure good color contrast with background.
- CSS — What Controls What
-Section	Key Classes	Purpose
-Header	.header, .logo, .pill, .btnNav	Aligns logo, search box, nav buttons
-Hero	.hero, .heroImg	Defines banner height and layout
-Offers	.offers-row, .offer, .label	Creates offer tiles with images
-Grid	.grid, .rest-card, .badge, .rest-body	Defines restaurant cards
-Banner	.banner	Controls full-width promo image
-Footer	.site-footer, .footer-grid, .col	Sets footer layout and text styling
-Responsive	@media (max-width:...)	Adjusts layout for smaller screens
-Customization idea:
-Define color variables in :root:
-:root {
-  --primary: #ff4d00;
-  --text-dark: #222;
-  --bg-dark: #121212;
-  --radius: 16px;
-}
-and use them across components for a consistent theme.
- JavaScript — Recommended Enhancements
-Populate Offers Dynamically from data.json
-document.addEventListener('DOMContentLoaded', async () => {
-  const res = await fetch('./data.json');
-  const data = await res.json();
-  const offersRow = document.querySelector('.offers-row');
-
-  offersRow.innerHTML = '';
-  data.offers.forEach((offer) => {
-    const div = document.createElement('div');
-    div.className = 'offer';
-    div.innerHTML = `
-      <img src="${offer.url}" alt="${offer.alt}">
-      <div class="label">${offer.name}</div>
-    `;
-    offersRow.appendChild(div);
-  });
-});
-Populate Restaurant Cards Dynamically
-document.addEventListener('DOMContentLoaded', async () => {
-  const res = await fetch('./data.json');
-  const data = await res.json();
-  const grid = document.querySelector('.grid');
-
-  grid.innerHTML = '';
-  data.restaurants.forEach((r) => {
-    const card = document.createElement('article');
-    card.className = 'rest-card';
-    card.innerHTML = `
-      <div class="rest-media">
-        <img src="${r.image}" alt="${r.name}">
-        <div class="badge">
-          <img src="${r.logo}" alt="${r.name} logo">
-        </div>
-      </div>
-      <div class="rest-body">
-        <h3>${r.name}</h3>
-        <p>${r.subtitle}</p>
-      </div>
-    `;
-    grid.appendChild(card);
-  });
-});
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swigato</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- write your code here -->
+    <script defer src="./script.js"></script>
+  </body>
+</html>
+```

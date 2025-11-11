@@ -107,6 +107,37 @@ header div{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+#searchResults {
+  position: absolute;
+  top: 83px;
+  left: 290px;
+  width: 350px;
+  background-color: var(--card);
+  border: 1px solid rgba(201, 201, 201, 0.367);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+  max-height: 200px; /* shows 5 items */
+  overflow-y: auto;
+  display: none;
+}
+
+.inputBoxOnSearch {
+  height: fit-content;
+  width: fit-content;
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(201, 201, 201, 0.367);
+  color: #6b7280;
+  cursor: pointer;
+  background: var(--card);
+  transition: background 0.2s ease;
+}
+
+.inputBoxOnSearch:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+
 
 body.dark {
   background-color: #0b1216;
