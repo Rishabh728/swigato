@@ -26,20 +26,32 @@ body {
 }
 
 /* header */
-header.header {
-  display: flex;
-  align-items: center;
-  
+header{
+  height: 100px;
   padding: 0px 0;
   width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  align-items: center; 
+   justify-content: space-around;
+  
+  
+}
+header div{
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+
 }
 .logo {
-  height: 100px;
+  max-height: 100px;
   width: 110px;
   display: block;
 }
 .header-right {
-  margin-left: auto;
+  /* margin-left: auto; */
   display: flex;
   gap: 12px;
   align-items: center;
@@ -68,26 +80,13 @@ header.header {
   
 }
 
-/* 
-.inputParent{
-    border: solid ;
-    width: 35%;
-    display: flex;
-    background-color: #10a9a3;
-    height: 50px;
-    justify-content: start;
-    align-items: center;
-    padding: 0px 10px ;
-    border: none;
-    border-radius: 10px;
-} */
-.inputNav{
-
+.inputNav {
+ 
     border: 0.01px solid var(--teal);
     outline:none;
     height: 45px;
     width: 350px;
-    padding: 5px;
+    padding: 5px 10px;
     font-size: large;
     color: var(--muted);
     border-top-left-radius: 5px;
@@ -109,6 +108,18 @@ header.header {
     border-bottom-right-radius: 5px;
 }
 
+body.dark {
+  background-color: #0b1216;
+  color: white;
+}
+.dayNight__{
+  background-color: whitesmoke;
+  color: #0b1216;
+  
+}
+
+
+
 /* hero */
 .hero {
   margin-top: 8px;
@@ -125,6 +136,7 @@ header.header {
 .heroImg {
   width: 100%;
 }
+
 
 /* offers row */
 .offers-row {
@@ -219,6 +231,18 @@ header.header {
   color: var(--muted);
   font-size: 14px;
 }
+/* restro */
+
+#load-button{
+
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 10px;
+ margin:25px auto 0 auto;
+ display: block;
+}
 /* banner */
 
 .banner{
@@ -234,7 +258,7 @@ footer.site-footer {
   color: #fff;
   /* border-radius: 12px; */
   padding: 58px;
-  height: 50vh;
+  height: fit-content;
 }
 .footer-grid {
   display: flex;
@@ -288,5 +312,120 @@ footer.site-footer {
   }
   .hero h1 {
     font-size: 28px;
+  }
+}
+
+
+.hero_dark{
+  filter: brightness(0.9);
+  transition: filter 0.4s ease;
+}
+
+/* popup */
+
+/* 🔲 Background blur overlay (separate from popup) */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 998;
+}
+
+/* 🔳 Popup container */
+.set-pop-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* 💨 Popup box */
+.pop-up {
+  position: relative;
+
+  border: 2px solid white;
+  border-radius: 12px;
+  height: 65vh;
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  animation: fadeIn 0.3s ease;
+}
+
+/* ❌ Close button */
+#close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* 🧾 Form styling */
+#signInForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 40%;
+  margin-top: 10px;
+}
+.h2{
+
+  padding: 10px 15px;
+  border-top-left-radius: 10px;
+  background-color: #0b1216;
+  color: #ffffff;
+}
+
+#signInForm input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+#signInForm button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: teal;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#signInForm button:hover {
+  background-color: darkcyan;
+}
+
+/* 🌫️ Smooth fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
 }

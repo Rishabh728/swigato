@@ -1,328 +1,121 @@
 [
     {
-      "name": "brand-logo",
-      "url": "https://d203x0tuwp1vfo.cloudfront.net/20251023100258/assets/images/logo.png",
-      "alt": "brand-logo"
-    },
-    {
-      "name": "download app",
-      "url": "https://d203x0tuwp1vfo.cloudfront.net/20251023100258/assets/images/redirect.svg",
-      "alt": "download app"
-    },
-    {
-      "name": "banner",
-      "url": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2516",
-      "alt": "banner"
-    },
-    {
-      "name": "offer-banner",
-      "url": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2521",
-      "alt": "offer-banner"
-    },
-    {
-      "name": "offer-banner",
-      "url": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2396",
-      "alt": "offer-banner"
-    },
-    {
-      "name": "offer-banner",
-      "url": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2390",
-      "alt": "offer-banner"
-    },
-    {
-      "name": "offer-banner",
-      "url": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2483",
-      "alt": "offer-banner"
-    },
-    {
-      "name": "offer-banner",
-      "url": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2397",
-      "alt": "offer-banner"
-    },
-    {
-      "name": "offer-banner",
-      "url": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2400",
-      "alt": "offer-banner"
-    },
-    {
-      "name": "offer-banner",
-      "url": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2401",
-      "alt": "offer-banner"
-    },
-    {
-      "name": "The Thin Crust Experts",
-      "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/20_disabled",
-      "alt": "The Thin Crust Experts"
-    },
-    {
-      "name": "20",
-      "url": "https://assets.box8.co.in/icon/web/brand/20",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "India’s Largest Desi Meals Brand",
-      "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/1_disabled",
-      "alt": "India’s Largest Desi Meals Brand"
-    },
-    {
-      "name": "1",
-      "url": "https://assets.box8.co.in/icon/web/brand/1",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "Mom-Style Homely Meals That You Can Have Daily",
-      "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/31_disabled",
-      "alt": "Mom-Style Homely Meals That You Can Have Daily"
-    },
-    {
-      "name": "31",
-      "url": "https://assets.box8.co.in/icon/web/brand/31",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "Comforting, Wholesome & Made with 100% Pure Ghee",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "Comforting, Wholesome & Made with 100% Pure Ghee"
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "India's Most Flavourful Biryani",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "India's Most Flavourful Biryani"
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "India’s Highest Rated Pizza Delivery Chain",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "India’s Highest Rated Pizza Delivery Chain"
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "Highway to North! Real North-Indian Taste.",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "Highway to North! Real North-Indian Taste."
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "India's Biggest Rolls",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "India's Biggest Rolls"
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "Sub Style Sandwiches, Freshly Made",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "Sub Style Sandwiches, Freshly Made"
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "Upto 74 gm Protein in Bowls, Salads & Sandwiches",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "Upto 74 gm Protein in Bowls, Salads & Sandwiches"
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "Fresh Gourmet Pasta.",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "Fresh Gourmet Pasta."
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "Slow Cooked & Served in an Earthen Matka",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "Slow Cooked & Served in an Earthen Matka"
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "Grilled in a Bhatti, Not Fried",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "Grilled in a Bhatti, Not Fried"
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "Ice Creams of the World. Taste That Teleports You.",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "Ice Creams of the World. Taste That Teleports You."
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "All the new & exciting dishes you must try!",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "All the new & exciting dishes you must try!"
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "From Pizzas to Samosas — Evenings are Covered",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "From Pizzas to Samosas — Evenings are Covered"
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "The Masters of Shawarma Craft",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": "The Masters of Shawarma Craft"
-    },
-    {
-      "name": "eatclub.png",
-      "url": "https://assets.box8.co.in/missing/eatclub.png",
-      "alt": ""
-    },
-    {
-      "name": "offers_teal.svg",
-      "url": "/assets/images/offers_teal.svg",
-      "alt": ""
-    },
-    {
-      "name": "eatclub-download-banner.webp",
-      "url": "/assets/images/eatclub-download-banner.webp",
-      "alt": ""
-    },
-    {
-      "name": "Facebook Social Link",
-      "url": "https://d203x0tuwp1vfo.cloudfront.net/20251023100258/assets/images/new_social_icons/fb.svg",
-      "alt": "Facebook Social Link"
-    },
-    {
-      "name": "Twitter Social Link",
-      "url": "https://d203x0tuwp1vfo.cloudfront.net/20251023100258/assets/images/new_social_icons/twitter.svg",
-      "alt": "Twitter Social Link"
-    },
-    {
-      "name": "Instagram Social Link",
-      "url": "https://d203x0tuwp1vfo.cloudfront.net/20251023100258/assets/images/new_social_icons/instagram.svg",
-      "alt": "Instagram Social Link"
-    }
-  ]
-  
+        "name": "Lean Crust Pizza",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/20_disabled",
+        "alt": "The thin crust experts",
+        "icon":"https://assets.box8.co.in/icon/web/brand/20",
+        "category":"restro"
+      },
+      {
+        "name": "Box 8 - Desi Meals",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/1_disabled",
+        "alt": "Indias largest desi meals brand",
+        "icon":"https://assets.box8.co.in/icon/web/brand/1",
+        "category":"restro"
+      },
+      {
+        "name": "Daily kitchen and homely meals",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/31_disabled",
+        "alt": "Mom-style homey meals that you can have daily",
+        "icon":"https://assets.box8.co.in/icon/web/brand/31",
+        "category":"restro"
+      },
+      {
+        "name": "The Ghee Kichidi Project",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/37_disabled",
+        "alt": "Comforting, wholesome & made with 100% ghee",
+        "icon":"https://assets.box8.co.in/icon/web/brand/37",
+        "category":"restro"
+      },
+      {
+        "name": "Zaza Mughal Biriyani",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/22_disabled",
+        "alt": "indias most favourful biriyani",
+        "icon":"https://assets.box8.co.in/icon/web/brand/22",
+        "category":"restro"
+      },
+      {
+        "name": "MOJO Pizza - 2X Toppings",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/13_disabled",
+        "alt": "Indias highest rated pizza delivery chain",
+        "icon":"https://assets.box8.co.in/icon/web/brand/13",
+        "category":"restro"
+      },
+      {
+        "name": "NH1 Bowls",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/16_disabled",
+        "alt": "Highway to north! real northindian taste",
+        "icon":"https://assets.box8.co.in/icon/web/brand/16",
+        "category":"restro"
+      },
+      {
+        "name": "MealFul Rolls",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/15_disabled",
+        "alt": "India's Biggest Rolls",
+        "icon":"https://assets.box8.co.in/icon/web/brand/15",
+        "category":"restro"
+      },
+      {
+        "name": "BOOM Sandwich",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/26_disabled",
+        "alt": "Substyle sandwiches, freshly made",
+        "icon":"https://assets.box8.co.in/icon/web/brand/26",
+        "category":"restro"
+      },
+      {
+        "name": "We fit protein meals",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/25_disabled",
+        "alt": "Upto 74g protein in bowls,salads & sandwiches",
+        "icon":"https://assets.box8.co.in/icon/web/brand/26",
+        "category":"restro"
+      },
+      {
+        "name": "We fit protein meals",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/25_disabled",
+        "alt": "Upto 74g protein in bowls,salads & sandwiches",
+        "icon":"https://assets.box8.co.in/icon/web/brand/25",
+        "category":"restro"
+      },
+      {
+        "name": "Hola Pasta",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/27_disabled",
+        "alt": "Fresh Gourmet Pasta",
+        "icon":"https://assets.box8.co.in/icon/web/brand/27",
+        "category":"restro"
+      },
+      {
+        "name": "Itimaani Matka Biriyani",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/14_disabled",
+        "alt": "Slow Cooked & served in Earthen Matka",
+        "icon":"https://assets.box8.co.in/icon/web/brand/14",
+        "category":"restro"
+      },
+      {
+        "name": "Bhatti Chicken",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/24_disabled",
+        "alt": "Grilled In Bhatti not fried",
+        "icon":"https://assets.box8.co.in/icon/web/brand/24",
+        "category":"restro"
+      },
+      {
+        "name": "Globo Icecream",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/21_disabled",
+        "alt": "Ice creams of world, the taste that teleports you",
+        "icon":"https://assets.box8.co.in/icon/web/brand/21",
+        "category":"restro"
+      },
+      {
+        "name": "Whats New",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/38_disabled",
+        "alt": "All the new & exciting dishes you must try",
+        "icon":"https://assets.box8.co.in/icon/web/brand/38",
+        "category":"restro"
+      },
+      {
+        "name": "Happy Hours [4-6 PM]",
+        "url": "https://assets.box8.co.in/rectangle-19x10/xhdpi/brand/28_disabled",
+        "alt": "From pizzas to samosas all covered",
+        "icon":"https://assets.box8.co.in/icon/web/brand/28",
+        "category":"restro"
+      }
+]
